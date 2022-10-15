@@ -10,13 +10,13 @@
 const http = require("http"); // for serving HTTP requests
 const fs = require("fs").promises; // for reading files
 const qs = require("querystring"); // for parsing form fields from POST
-const bodyParser = require("body-parser");
-
-app.use(bodyParser.urlencoded({ extended: false }));
+let bodyParser = require("body-parser");
 
 // all of the following has to do with our database access
 var sqlite3 = require("sqlite3").verbose();
-var mysql = require("mysql").verbose();
+
+app.use(bodyParser.json());
+
 // for fancier options, see
 // https://medium.com/swlh/read-html-form-data-using-get-and-post-method-in-node-js-8d2c7880adbf
 
@@ -26,7 +26,6 @@ const port = 8080; // if you pick an unavailable port, you get an error
 
 // database access to an existing database (we could also create in here, of course)
 const db = new sqlite3.Database("./cats.db");
-const dbsql = new mysql.Database("./cats.db");
 
 const requestListener = function (req, res) {
   switch (req.url) {
