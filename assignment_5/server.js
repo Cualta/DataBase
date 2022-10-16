@@ -35,6 +35,27 @@ mysqlConnection.connect((error) => {
 const requestListener = function (req, res) {
   switch (req.url) {
     case "/insert":
+      let body = "";
+      req.on("data", (chunk) => {
+        body += chunk.toString();
+        req.on("end", () => {
+          const fields = qs.parse(body);
+          var name = fields.cat;
+          var snack = fields.snack;
+          mysqlConnection.query(
+            "INSERT INTO cats(CatName, FavSnack) VALUES(?, ?)",
+            [name, snack],
+            (err) => {
+              if (err) {
+                return console.log(err.message);
+              }
+              console.log("cat");
+              res.writeHead(200);
+              res.end("Thanks!");
+            }
+          );
+        });
+      });
       break;
     case "/cats":
       var listing = "<html><body>";
@@ -51,8 +72,21 @@ const requestListener = function (req, res) {
         console.log("list");
       });
       break;
-    default:
+    default: // by default, show the form
+      // we are being silly here and loading it every time; check
+      // the tutorial for a better way
       console.log("form");
+      fs.readFile(__dirname + "/form.html")
+        .then((content) => {
+          res.setHeader("Content-Type", "text/html");
+          res.writeHead(200);
+          res.end(content);
+        })
+        .catch((err) => {
+          res.writeHead(500);
+          res.end(err);
+          return;
+        });
   }
 };
 
@@ -61,6 +95,26 @@ const server = http.createServer(requestListener);
 server.listen(port, host, () => {
   console.log(`Listening on http://${host}:${port}`);
 });
+
+// Get a cat
+/* app.get("/cats/: CatName", (req, res) => {
+  var listing = "<html><body>";
+  mysqlConnection.query(
+    "SELECT * FROM cats WHERE CatName = = ?",
+    (err, matches) => {
+      if (err) {
+        return console.error(err.message);
+      }
+      matches.forEach(function (row) {
+        listing += row.CatName + "<br>";
+      });
+      res.writeHead(200);
+      listing += "</body></html>";
+      res.end(listing);
+      console.log("list");
+    }
+  );
+}); */
 
 // view the cats in the database
 /* app.get("/cats", (req, res) => {
