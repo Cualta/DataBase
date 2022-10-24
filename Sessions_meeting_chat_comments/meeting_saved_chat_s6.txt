@@ -1,0 +1,45 @@
+09:02:22 From Soheyl Rahgozar To Everyone:
+	good morning everyone
+09:05:45 From Elisa Schaeffer, Prof. To Everyone:
+	morning
+09:27:48 From Elisa Schaeffer, Prof. To Everyone:
+	const server = http.createServer(requestListener);
+	server.listen(port, host, () => {
+	    console.log(`Listening on http://${host}:${port}`);
+	});
+09:42:13 From Elisa Schaeffer, Prof. To Everyone:
+	CGI
+09:42:43 From Elisa Schaeffer, Prof. To Everyone:
+	https://users.cs.cf.ac.uk/dave/PERL/node187.html
+09:43:47 From Elisa Schaeffer, Prof. To Everyone:
+	https://www.tutorialspoint.com/python/python_cgi_programming.htm
+09:47:07 From Elisa Schaeffer, Prof. To Everyone:
+	ODBC
+09:47:49 From Elisa Schaeffer, Prof. To Everyone:
+	https://en.wikipedia.org/wiki/Open_Database_Connectivity
+09:50:42 From Elisa Schaeffer, Prof. To Everyone:
+	https://www.geeksforgeeks.org/difference-between-commit-and-rollback-in-sql/
+09:58:51 From Soheyl Rahgozar To Everyone:
+	https://github.com/sohaleKing/SelfStudy/tree/main/ExpressJs_selfStudy/Expree_mySql
+10:12:55 From Elisa Schaeffer, Prof. To Everyone:
+	https://enable-cors.org/server_cgi.html
+10:15:21 From Soheyl Rahgozar To Everyone:
+	brb
+10:18:13 From Soheyl Rahgozar To Everyone:
+	b
+10:21:37 From Elisa Schaeffer, Prof. To Everyone:
+	https://httpd.apache.org/
+10:21:39 From Soheyl Rahgozar To Everyone:
+	https://www.npmjs.com/package/cgi-express
+10:36:08 From Soheyl Rahgozar To Everyone:
+	Open Database Connectivity (ODBC) is an open standard application programming interface (API) that allows application programmers to access any database.
+10:36:39 From Soheyl Rahgozar To Everyone:
+	CGI is a standard method used to generate dynamic content on web pages. CGI stands for Common Gateway Interface and provides an interface between the HTTP server and programs generating web content. These programs are better known as CGI scripts. They are written in a scripting language.
+10:37:51 From Soheyl Rahgozar To Everyone:
+	COMMIT is the SQL command that is used for storing changes performed by a transaction. When a COMMIT command is issued it saves all the changes since last COMMIT or ROLLBACK.
+10:53:45 From Elisa Schaeffer, Prof. To Everyone:
+	https://github.com/satuelisa/DBforWeb/tree/main/cgi
+10:57:37 From Elisa Schaeffer, Prof. To Everyone:
+	http://localhost/cgi-bin/hello.py
+11:01:58 From Soheyl Rahgozar To Everyone:
+	chmod: change permission 	chown: change the owner

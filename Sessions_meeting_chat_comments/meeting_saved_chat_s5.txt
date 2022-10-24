@@ -1,0 +1,30 @@
+18:12:26 From Elisa Schaeffer, Prof. To Everyone:
+	https://hackr.io/blog/mariadb-vs-mysql
+18:13:19 From Elisa Schaeffer, Prof. To Everyone:
+	https://www.opc-router.com/what-is-mariadb-a-comparison-with-mysql/
+18:14:49 From Elisa Schaeffer, Prof. To Everyone:
+	next time, try a minimal ubuntu instead of a full installation https://wiki.ubuntu.com/Minimal
+18:15:31 From Elisa Schaeffer, Prof. To Everyone:
+	it is a shorter download
+18:28:00 From Elisa Schaeffer, Prof. To Everyone:
+	https://mariadb.com/kb/en/deprecation-policy/#deprecated-package-platforms should list all OS versions that are not supported
+18:28:06 From Soheyl Rahgozar To Everyone:
+	https://github.com/sohaleKing/webDataBase/blob/master/bDermaPlus_DB/reflection4.sql
+18:33:09 From Elisa Schaeffer, Prof. To Everyone:
+	https://github.com/satuelisa/DBforWeb/tree/main/nodejs
+19:36:19 From Soheyl Rahgozar To Everyone:
+	https://github.com/sohaleKing/CRUD_fullStack
+19:36:40 From Soheyl Rahgozar To Everyone:
+	https://github.com/sohaleKing/CRUD_Express_MongoDB
+19:42:38 From Soheyl Rahgozar To Everyone:
+	https://github.com/sohaleKing/RealEstate
+19:42:48 From Soheyl Rahgozar To Everyone:
+	https://github.com/sohaleKing/OnlineCV
+19:42:57 From Soheyl Rahgozar To Everyone:
+	https://github.com/sohaleKing/Distributor
+19:44:05 From Soheyl Rahgozar To Everyone:
+	https://project4.rahgozar.ca/
+19:44:20 From Soheyl Rahgozar To Everyone:
+	https://project5.rahgozar.ca/
+19:45:02 From Soheyl Rahgozar To Everyone:
+	https://project10.rahgozar.ca/

@@ -1,0 +1,48 @@
+09:16:26 From Elisa Schaeffer, Prof. To Everyone:
+	https://www.w3schools.com/sql/sql_view.asp
+09:24:02 From Elisa Schaeffer, Prof. To Everyone:
+	https://www.unixtimestamp.com/
+09:25:12 From Soheyl Rahgozar To Everyone:
+	epoch time
+09:26:48 From Elisa Schaeffer, Prof. To Everyone:
+	1 FROM
+	2 WHERE
+	3 AND
+	4 OR
+	5 ||
+	6 CASE WHEN THEN ELSE
+	7 ORDER	BY (ASC)
+	8 DESC LIMIT
+	9 LIMIT
+09:30:47 From Elisa Schaeffer, Prof. To Everyone:
+	https://github.com/satuelisa/DBforWeb
+09:31:00 From Elisa Schaeffer, Prof. To Everyone:
+	Chapter 5 of L: Querying Multiple Tables
+	    Chapter 7 of D: Joining Tables in a Relational Database
+	    Chapter 3 of C: Working With Multiple Tables
+	    Chapter 9 of P: Working With Multiple Tables And Queries
+09:32:04 From Elisa Schaeffer, Prof. To Everyone:
+	https://sqliteonline.com/
+09:33:20 From Elisa Schaeffer, Prof. To Everyone:
+	https://github.com/satuelisa/DBforWeb/blob/main/joins.sql
+09:49:57 From Elisa Schaeffer, Prof. To Everyone:
+	https://stackoverflow.com/questions/565620/difference-between-join-and-inner-join
+09:52:27 From Elisa Schaeffer, Prof. To Everyone:
+	select firstname, course, grade FROM students JOIN grades ON (students.studentid = grades.sid);
+10:20:15 From Elisa Schaeffer, Prof. To Everyone:
+	SELECT * FROM students FULL OUTER JOIN grades USING (studentid) WHERE (grades IS NULL) OR (students is NULL);
+10:24:02 From Elisa Schaeffer, Prof. To Everyone:
+	SELECT StudentID, FirstName, COUNT(Grade) AS total FROM students FULL OUTER JOIN grades USING (StudentID) GROUP BY (students.StudentID, grades.studentid) ORDER BY total DESC;
+10:28:30 From Elisa Schaeffer, Prof. To Everyone:
+	SELECT COUNT(grade) AS total, programname FROM students FULL OUTER JOIN grades USING (studentid) GROUP BY ProgramName ORDER BY total DESC;
+10:30:03 From Elisa Schaeffer, Prof. To Everyone:
+	SELECT FirstName, AVG(Grade) as gpa FROM students JOIN grades USING (StudentID) GROUP BY StudentID ORDER by gpa DESC;
+10:32:03 From Elisa Schaeffer, Prof. To Everyone:
+	SELECT AVG(Grade) as perf, ProgramName FROM students JOIN grades USING (StudentID) GROUP BY ProgramName ORDER BY perf DESC LIMIT 1;
+10:37:42 From Soheyl Rahgozar To Everyone:
+	https://github.com/sohaleKing
+10:44:56 From Elisa Schaeffer, Prof. To Everyone:
+	COUNT counts how many rows are in a particular column.
+	    SUM adds together all the values in a particular column.
+	    MIN and MAX return the lowest and highest values in a particular column, respectively.
+	    AVG calculates the average of a group of selected values.

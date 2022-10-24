@@ -1,0 +1,36 @@
+18:00:08 From Elisa Schaeffer, Prof. To Everyone:
+	soon
+18:25:57 From Soheyl Rahgozar To Everyone:
+	https://github.com/sohaleKing/webDataBase/tree/master/bDermaPlus_DB
+18:38:11 From Elisa Schaeffer, Prof. To Everyone:
+	https://www.w3schools.com/sql/sql_dates.asp
+18:41:42 From Elisa Schaeffer, Prof. To Everyone:
+	https://learnsql.com/cookbook/how-to-get-the-current-date-without-time-in-t-sql/
+18:42:28 From Elisa Schaeffer, Prof. To Everyone:
+	https://www.tutorialspoint.com/mysql-date-column-auto-fill-with-current-date
+18:43:09 From Elisa Schaeffer, Prof. To Everyone:
+	CREATE TABLE Example
+	(
+	SomeField INTEGER,
+	DateCreated DATETIME NOT NULL DEFAULT(GETDATE())
+	)
+18:44:58 From Elisa Schaeffer, Prof. To Everyone:
+	https://www.sqlshack.com/sql-index-overview-and-strategy/ (about what an index is)
+19:01:25 From Elisa Schaeffer, Prof. To Everyone:
+	||
+19:01:35 From Elisa Schaeffer, Prof. To Everyone:
+	||
+19:01:46 From Mercy Gracy Antony To Everyone:
+	SELECT FirstName || ' '||LastName FROM User;
+19:04:48 From Elisa Schaeffer, Prof. To Everyone:
+	https://stackoverflow.com/questions/10256848/can-i-use-case-statement-in-a-join-condition
+19:13:17 From Soheyl Rahgozar To Everyone:
+	WSL is ok?
+19:22:41 From Claudia Hernandez Porras To Everyone:
+	https://dev.mysql.com/downloads/
+20:29:09 From Elisa Schaeffer, Prof. To Everyone:
+	https://multipass.run/docs/installing-on-macos (for a mac)
+20:29:17 From Claudia Hernandez Porras To Everyone:
+	https://dev.mysql.com/downloads/mysql/
+20:40:55 From Soheyl Rahgozar To Everyone:
+	https://www.c-sharpcorner.com/article/what-is-the-most-popular-database-in-the-world/

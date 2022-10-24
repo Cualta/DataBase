@@ -1,0 +1,65 @@
+18:02:14 From Elisa Schaeffer, Prof. To Everyone:
+	just the two of us?
+18:02:26 From Elisa Schaeffer, Prof. To Everyone:
+	lemme tag people on teams...
+18:03:52 From Konstantin Stamov To Everyone:
+	ok
+18:04:05 From Elisa Schaeffer, Prof. To Everyone:
+	maybe the rain is proving an obstacle
+18:04:10 From Konstantin Stamov To Everyone:
+	We use to have our classes on Thursday
+18:04:21 From Elisa Schaeffer, Prof. To Everyone:
+	I teach another class on Thursdays :(
+18:32:42 From Elisa Schaeffer, Prof. To Everyone:
+	https://www.sqlitetutorial.net/sqlite-autoincrement/
+18:37:05 From Claudia Hernandez Porras To Everyone:
+	brb
+18:41:02 From Claudia Hernandez Porras To Everyone:
+	back
+18:41:07 From Elisa Schaeffer, Prof. To Everyone:
+	wb
+18:44:40 From Elisa Schaeffer, Prof. To Everyone:
+	https://www.datensen.com/blog/er-diagram/one-to-many-relationships/
+18:51:19 From Elisa Schaeffer, Prof. To Everyone:
+	https://dba.stackexchange.com/questions/286720/is-it-necessary-for-a-foreign-key-to-be-a-primary-key-in-another-table-why
+18:54:05 From Soheyl Rahgozar To Everyone:
+	very good job @konstantin
+19:05:29 From Elisa Schaeffer, Prof. To Everyone:
+	another option to read to clarify this: one/many stuff https://blog.supportgroup.com/getting-started-with-relational-databases-one-to-one-and-many-to-many-relationships
+19:14:34 From Elisa Schaeffer, Prof. To Everyone:
+	Chapter 9 of the book H also addresses this
+19:15:49 From Elisa Schaeffer, Prof. To Everyone:
+	check Fig. 8.4 in the textbook
+19:30:18 From Elisa Schaeffer, Prof. To Everyone:
+	https://www.w3schools.com/sql/sql_datatypes.asp
+19:33:22 From Elisa Schaeffer, Prof. To Everyone:
+	https://www.sqlitetutorial.net/sqlite-string-functions/
+19:41:19 From Elisa Schaeffer, Prof. To Everyone:
+	after we finish discussing, I will post the points on myCourses and then you can all let me know on Teams if you agree with your grade
+19:42:07 From Elisa Schaeffer, Prof. To Everyone:
+	if anyone needs clarification on which question or questions were a bit weaker and cost you points, we can do that as well, although I think it mostly becomes clear while discussing :)
+19:51:01 From Elisa Schaeffer, Prof. To Everyone:
+	lemme know when you are back
+20:02:01 From Elisa Schaeffer, Prof. To Everyone:
+	https://www.sqlstyle.guide/
+20:02:34 From Elisa Schaeffer, Prof. To Everyone:
+	Use a collective name or, less ideally, a plural form. For example (in order of preference) staff and employees.
+	    Do not prefix with tbl or any other such descriptive prefix or Hungarian notation.
+	    Never give a table the same name as one of its columns and vice versa.
+	    Avoid, where possible, concatenating two table names together to create the name of a relationship table. Rather than cars_mechanics prefer services.
+20:08:01 From Elisa Schaeffer, Prof. To Everyone:
+	https://stackoverflow.com/questions/14511796/adding-named-foreign-key-constraints-in-a-sql-create-statement
+20:16:08 From Elisa Schaeffer, Prof. To Everyone:
+	does each invoice correspond to just one service?
+20:16:27 From Elisa Schaeffer, Prof. To Everyone:
+	or can two or more services be billed jointly?
+20:17:13 From Elisa Schaeffer, Prof. To Everyone:
+	my main questions are: 1) does the category need to be a table or can it be a column in service?
+20:17:55 From Elisa Schaeffer, Prof. To Everyone:
+	2) could appointment and service be in a single table if there is only one appointment per service and only one service per appointment?
+20:53:13 From Soheyl Rahgozar To Everyone:
+	https://sqliteonline.com/
+20:54:07 From Elisa Schaeffer, Prof. To Everyone:
+	SELECT * FROM geeksforgeeks ORDER BY FIRSTNAME, LASTNAME DESC, AGE DESC ;
+20:54:40 From Elisa Schaeffer, Prof. To Everyone:
+	https://www.geeksforgeeks.org/sql-multiple-column-ordering/
