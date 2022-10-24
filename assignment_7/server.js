@@ -91,7 +91,7 @@ app.get("/students/student", (req, res) => {
 
 app.get("/students", (req, res) => {
   const std = client.db(dbName).collection("courses");
-  const result = std.find({ title: "Webdev 101" });
+  const result = std.find({});
   result.toArray((error, itm) => {
     console.log("test", itm);
     console.log("error", error);
